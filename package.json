@@ -8,7 +8,6 @@
     "presets": [ "es2015", "es2016" ]
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "browserify src/js/app.js -o dist/js/app.js --transform [ babelify ]",
     "watch": "onchange 'src/**/*.js' -- npm run build"
   },
